@@ -1,0 +1,139 @@
+{
+  "C_Cpp.enhancedColorization": "Enabled",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "arduino.commandPath": "Contents/MacOS/Arduino",
+  "arduino.defaultBaudRate": 9600,
+  "arduino.path": "/Applications",
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [],
+  "glassit.alpha": 100,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": false,
+  "python.linting.pylintArgs": [
+    "--disable",
+    "C0114"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "vscode_vibrancy.opacity": 10,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1"
+  },
+  "editor.fontLigatures": true,
+  // VIM SECTION
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "lineBreakInsert"
+      ],
+      "silent": true
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        ":w!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        ":q!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "o",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.openRecent"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "o",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.openRecent"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+  },
+  // To improve performance",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  // END VIM SECTION
+}
