@@ -136,4 +136,37 @@
     "vscodevim.vim": 1
   },
   // END VIM SECTION
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.colorCustomizations": {
+    "[Catppuccin Mocha]": {
+      "editorGroupHeader.tabsBackground": "#181825",
+      "tab.inactiveBackground": "#181825"
+    }
+  },
 }
